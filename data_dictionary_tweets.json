@@ -1,0 +1,69 @@
+{
+  "data_elements": [
+    {
+      "name": "id",
+      "definition": "A unique identifier for the tweet",
+      "format": "Integer"
+    },
+    {
+      "name": "text",
+      "definition": "The text of the tweet",
+      "format": "String"
+    },
+    {
+      "name": "entities",
+      "definition": "Object containing information about hashtags, symbols, user mentions, and URLs mentioned in the tweet",
+      "format": "Object"
+    },
+    {
+      "name": "source",
+      "definition": "The source of the tweet (e.g. Twitter for iPhone)",
+      "format": "String"
+    },
+    {
+      "name": "in_reply_to_status_id",
+      "definition": "The id of the tweet that this tweet is in reply to, if any",
+      "format": "Integer"
+    },
+    {
+      "name": "in_reply_to_user_id",
+      "definition": "The id of the user that this tweet is in reply to, if any",
+      "format": "Integer"
+    },
+    {
+      "name": "user",
+      "definition": "Object containing information about the user who posted the tweet",
+      "format": "Object"
+    },
+    {
+      "name": "geo",
+      "definition": "Geolocation information for the tweet, if available",
+      "format": "Object"
+    },
+    {
+      "name": "place",
+      "definition": "Information about the place where the tweet was posted, if available",
+      "format": "Object"
+    },
+    {
+      "name": "contributors",
+      "definition": "List of contributors to the tweet, if available",
+      "format": "Array"
+    },
+    {
+      "name": "retweeted_status",
+      "definition": "Object containing information about the original tweet that was retweeted, if the current tweet is a retweet",
+      "format": "Object"
+    },
+    {
+      "name": "retweet_count",
+      "definition": "Number of times the tweet has been retweeted",
+      "format": "Integer"
+    },
+    {
+      "name": "favorite_count",
+      "definition": "Number of times the tweet has been marked as a favorite",
+      "format": "Integer"
+    }
+  ]
+}
